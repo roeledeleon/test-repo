@@ -1,8 +1,8 @@
-iframe[seamless] {
+/* iframe[seamless] {
   border: none;
-}
+} */
 
-.modal.in .modal-dialog {
+/* .modal.in .modal-dialog {
   position: fixed;
   bottom: 0px;
   right: 0px;
@@ -13,7 +13,7 @@ iframe[seamless] {
   top: 70%;
   left: 27%;
   outline: none;
-}
+} */
 
 /* #modalTermsOfService {
   top: 70%;
