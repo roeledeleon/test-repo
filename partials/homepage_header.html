@@ -5,7 +5,7 @@
         src="/images/icon/favicon.ico"
         alt="Lifework Enterprise"
         width="30"
-        height="24"
+        height="30"
       />
       Lifework Enterprise</a
     >
@@ -31,11 +31,26 @@
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
-            Dropdown
+            Home
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Privacy Policy</a></li>
-            <li><a class="dropdown-item" href="#">Terms of Service</a></li>
+            <li>
+              <a
+                class="dropdown-item"
+                data-bs-toggle="modal"
+                data-bs-target="#modalPrivacyPolicy"
+                >Privacy Policy</a
+              >
+            </li>
+
+            <li>
+              <a
+                class="dropdown-item"
+                data-bs-toggle="modal"
+                data-bs-target="#modalTermsOfService"
+                >Terms of Service</a
+              >
+            </li>
           </ul>
         </li>
         <li class="nav-item">
@@ -49,20 +64,15 @@
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
-            Dropdown
+            Products
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Products</a></li>
-            <li><a class="dropdown-item" href="#">Web Hosting</a></li>
-            <li><a class="dropdown-item" href="#">Ebooks Gallery</a></li>
+            <li><a class="dropdown-item">Engineering Supply & Services</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a class="dropdown-item" href="#">IT Services</a>
+            </li>
           </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
         </li>
       </ul>
     </div>

@@ -6,7 +6,7 @@
     <title>Lifework Enterprise | Official Website</title>
     <!-- favicon -->
     <link rel="icon" type="image/x-icon" href="/images/icon/favicon.ico" />
-    <link rel="stylesheet" href="/css/styles.css" />
+
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,6 +21,8 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <!-- css | styles -->
+    <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
     <!--header-->
@@ -28,7 +30,11 @@
     <div include-html="./partials/homepage_header.html"></div>
     <!-- <iframe src="/partials/homepage_header.html" seamless></iframe> -->
 
-    <main></main>
+    <main>
+      <div include-html="./partials/homepage_privacy-policy.html"></div>
+      <div include-html="./partials/homepage_terms-of-service.html"></div>
+      <div include-html="./partials/footer.html"></div>
+    </main>
 
     <script>
       function includeHTML() {
