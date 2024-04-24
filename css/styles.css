@@ -13,3 +13,10 @@
   display: flex;
   justify-content: center;
 }
+
+/* footer */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
