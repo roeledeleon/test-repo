@@ -1,22 +1,15 @@
-/* iframe[seamless] {
-  border: none;
-} */
-
-/* .modal.in .modal-dialog {
-  position: fixed;
-  bottom: 0px;
-  right: 0px;
-  margin: 0px;
+/* homepage_carousel */
+.carousel {
+  width: 60%; /* Or try to use important */
+  height: auto;
 }
 
-#modalPrivacyPolicy {
-  top: 70%;
-  left: 27%;
-  outline: none;
-} */
+.carouselServicesAutoplaying {
+  display: flex;
+  justify-content: center;
+}
 
-/* #modalTermsOfService {
-  top: 70%;
-  left: 27%;
-  outline: none;
-} */
+.section-title-checkout {
+  display: flex;
+  justify-content: center;
+}
