@@ -3,7 +3,71 @@
   justify-content: center;
 }
 
+/* our-Company */
+.section-our-company-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: -6px;
+
+  background-image: url("../media/images/background_ai-generated-8567354_1280.jpg");
+  height: auto;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 0.95;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.section-our-company-wrapper .section-title-main {
+  color: white;
+}
+
+.row_vision {
+  margin-top: 40px;
+}
+.row_core-values {
+  margin-bottom: 60px;
+}
+
+.section-our-company-wrapper .row {
+  display: flex;
+  justify-content: center;
+
+  background-color: transparent;
+  opacity: 0.9;
+}
+
 /* homepage_carousel */
+.section-carousel-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: -6px;
+
+  background-image: url("../media/images/background_technology-3389904_1280.jpg");
+  height: auto;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.section-carousel-wrapper .carouselServicesAutoplaying {
+  margin-bottom: 60px;
+}
+
+.section-carousel-wrapper .section-title-main {
+  color: white;
+}
+
 .carousel {
   width: 60%;
   height: auto;
